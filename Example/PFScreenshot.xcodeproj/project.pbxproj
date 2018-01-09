@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88196BEC200340FB00E7EEA7 /* PFScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88196BEB200340FB00E7EEA7 /* PFScreenshot.swift */; };
+		88196BF22003430C00E7EEA7 /* UIView+PFScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88196BF12003430C00E7EEA7 /* UIView+PFScreenshot.swift */; };
+		88196BF52003465300E7EEA7 /* UITableView+PFScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88196BF42003465300E7EEA7 /* UITableView+PFScreenshot.swift */; };
+		88196BF72003468400E7EEA7 /* UIScrollView+PFScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88196BF62003468400E7EEA7 /* UIScrollView+PFScreenshot.swift */; };
+		88196BF92003471500E7EEA7 /* UIImage+PFScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88196BF82003471500E7EEA7 /* UIImage+PFScreenshot.swift */; };
+		88196BFB2003771500E7EEA7 /* UIColor+PFScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88196BFA2003771500E7EEA7 /* UIColor+PFScreenshot.swift */; };
+		88196BFF20045F9700E7EEA7 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88196BFE20045F9700E7EEA7 /* ImageViewController.swift */; };
 		8869CB7020033AA100A07FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869CB6F20033AA100A07FA8 /* AppDelegate.swift */; };
 		8869CB7220033AA100A07FA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869CB7120033AA100A07FA8 /* ViewController.swift */; };
 		8869CB7520033AA100A07FA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8869CB7320033AA100A07FA8 /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88196BEB200340FB00E7EEA7 /* PFScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFScreenshot.swift; sourceTree = "<group>"; };
+		88196BF12003430C00E7EEA7 /* UIView+PFScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PFScreenshot.swift"; sourceTree = "<group>"; };
+		88196BF42003465300E7EEA7 /* UITableView+PFScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+PFScreenshot.swift"; sourceTree = "<group>"; };
+		88196BF62003468400E7EEA7 /* UIScrollView+PFScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+PFScreenshot.swift"; sourceTree = "<group>"; };
+		88196BF82003471500E7EEA7 /* UIImage+PFScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PFScreenshot.swift"; sourceTree = "<group>"; };
+		88196BFA2003771500E7EEA7 /* UIColor+PFScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+PFScreenshot.swift"; sourceTree = "<group>"; };
+		88196BFE20045F9700E7EEA7 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		8869CB6C20033AA100A07FA8 /* PFScreenshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFScreenshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8869CB6F20033AA100A07FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8869CB7120033AA100A07FA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88196BEA200340BA00E7EEA7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				88196BEB200340FB00E7EEA7 /* PFScreenshot.swift */,
+				88196BF12003430C00E7EEA7 /* UIView+PFScreenshot.swift */,
+				88196BF62003468400E7EEA7 /* UIScrollView+PFScreenshot.swift */,
+				88196BF42003465300E7EEA7 /* UITableView+PFScreenshot.swift */,
+				88196BF82003471500E7EEA7 /* UIImage+PFScreenshot.swift */,
+				88196BFA2003771500E7EEA7 /* UIColor+PFScreenshot.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
 		8869CB6320033AA100A07FA8 = {
 			isa = PBXGroup;
 			children = (
+				88196BEA200340BA00E7EEA7 /* Sources */,
 				8869CB6E20033AA100A07FA8 /* PFScreenshot */,
 				8869CB6D20033AA100A07FA8 /* Products */,
 			);
@@ -56,6 +85,7 @@
 			children = (
 				8869CB6F20033AA100A07FA8 /* AppDelegate.swift */,
 				8869CB7120033AA100A07FA8 /* ViewController.swift */,
+				88196BFE20045F9700E7EEA7 /* ImageViewController.swift */,
 				8869CB7320033AA100A07FA8 /* Main.storyboard */,
 				8869CB7620033AA100A07FA8 /* Assets.xcassets */,
 				8869CB7820033AA100A07FA8 /* LaunchScreen.storyboard */,
@@ -136,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88196BF22003430C00E7EEA7 /* UIView+PFScreenshot.swift in Sources */,
+				88196BFF20045F9700E7EEA7 /* ImageViewController.swift in Sources */,
+				88196BF52003465300E7EEA7 /* UITableView+PFScreenshot.swift in Sources */,
 				8869CB7220033AA100A07FA8 /* ViewController.swift in Sources */,
+				88196BFB2003771500E7EEA7 /* UIColor+PFScreenshot.swift in Sources */,
+				88196BF72003468400E7EEA7 /* UIScrollView+PFScreenshot.swift in Sources */,
+				88196BF92003471500E7EEA7 /* UIImage+PFScreenshot.swift in Sources */,
 				8869CB7020033AA100A07FA8 /* AppDelegate.swift in Sources */,
+				88196BEC200340FB00E7EEA7 /* PFScreenshot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
