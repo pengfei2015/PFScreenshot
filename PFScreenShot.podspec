@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PFScreenShot"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "UIView and UITableView Screenshot"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = translation from DHSmartScreenShot and github "https://github.com/davidman/DHSmartScreenshot"
+  # s.description  = translation from DHSmart with swift 4.0 and add WKWebView
 
   s.homepage     = "https://github.com/pengfei2015/PFScreenshot"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
